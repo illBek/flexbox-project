@@ -1,1 +1,66 @@
+*,
+*::before,
+*::after, {
+    box-sizing: border-box;
+}
 
+* {
+    border: 1px dotted;
+}
+
+.header,
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.header h2 {
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+}
+
+.section1 h1 {
+   font-size: 42px;
+}
+
+.s1left {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 0px;
+    gap: 0px;
+    align-self: center;
+}
+
+.section1 {
+    padding: 40px;
+    margin: 0px;
+}
+
+.section1 button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
