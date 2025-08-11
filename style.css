@@ -2,17 +2,23 @@
 *::before,
 *::after, {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-* {
+/* * {
     border: 1px dotted;
+} */
+
+body {
+    font-family: Roboto, sans-serif;
 }
 
 .header,
-.section1 {
+.section1,
+footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-family: Roboto, sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -23,8 +29,6 @@
 
 ul {
     list-style: none;
-    margin: 0px;
-    padding: 0px;
     display: flex;
     align-items: center;
     gap: 14px;
@@ -33,7 +37,6 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8;
-    font-family: Roboto, sans-serif;
 }
 
 .section1 h1 {
@@ -43,14 +46,13 @@ a {
 .s1left {
     display: flex;
     flex-direction: column;
-    margin: 0px 20px 0px 0px;
+    margin-right: 20px;
     gap: 0px;
     align-self: center;
 }
 
 .section1 {
     padding: 40px;
-    margin: 0px;
 }
 
 .section1 button {
@@ -59,8 +61,73 @@ a {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+}
+
+.section2 h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.section2 img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.categories div {
+    flex: initial;
+    flex-basis: 150px;
+    padding: 15px 40px;
+    color: #1F2937;
+    font-size: 16px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section3 p {
+    max-width: 1000px;
+    color: #606366;
+}
+
+.section3 :nth-of-type(1) {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.section3 :nth-of-type(2) {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 8px;
+    color:#1F2937;
+}
+
+.section4 {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color:#F9FAF8;
+    margin: 50px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
 }
