@@ -39,7 +39,7 @@ footer {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 22px;
     font-size: 24px;
 }
 
@@ -48,8 +48,7 @@ a {
     color: #F9FAF8;
 }
 
-.navbar a:hover,
-.section1 a:hover {
+.navbar a:hover {
     color:#3882F6;
 }
 
@@ -90,10 +89,6 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-}
-
-.categories a {
-    color:#1F2937;
 }
 
 .section1 .container {
@@ -149,7 +144,7 @@ button {
     font-weight: 700;
     margin-top: 8px;
     color:#1F2937;
-    align-self: last baseline;
+    align-self: flex-end;
 }
 
 .section3 {
